@@ -1,4 +1,8 @@
 Zen of Python
 
 
+
 4.Complex is better than complicated.
+
+6.Sparse is better than dense.
+8.Special cases aren't special enough to break the rules.
