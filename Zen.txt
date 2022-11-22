@@ -1,1 +1,2 @@
 Zen of Python
+8.Special cases aren't special enough to break the rules.
