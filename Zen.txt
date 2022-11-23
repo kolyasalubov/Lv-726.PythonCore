@@ -1,6 +1,6 @@
 Zen of Python
 
-
+2.Explicit is better than implicit.
 
 4.Complex is better than complicated.
 
