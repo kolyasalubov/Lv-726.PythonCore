@@ -1,7 +1,11 @@
+import tkinter.filedialog
+
 def open_func():
-    file = 'C:\\Users\\Max\\Desktop\\first\\Lv-726.PythonCore\\HW1\\ZenOfPython.txt'
-    open_file = open(file,'r')
+    print("\n\nYou need to open only 'ZenOfPython.txt'")
+    open_filename = tkinter.filedialog.askopenfilename()
+    open_file = open(open_filename, 'r')
     read_file = open_file.read()
+    
     
 
 
