@@ -12,3 +12,4 @@ Zen of Python
 19.Namespaces are one honking great idea -- let's do more of those!
 24.Flat is better than nested.
 56.Namespaces are one honking great idea -- let's do more of those!
+16.Although never is often better than *right* now.
