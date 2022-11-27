@@ -9,4 +9,5 @@ Zen of Python
 9. Although practicality beats purity.
 10. Errors should never pass silently.
 11.Unless explicitly silenced.
+19.Namespaces are one honking great idea -- let's do more of those!
 56.Namespaces are one honking great idea -- let's do more of those!
