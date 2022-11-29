@@ -11,6 +11,7 @@ Zen of Python
 11.Unless explicitly silenced.
 12.In the face of ambiguity, refuse the temptation to guess.
 16.Although never is often better than *right* now.
+17.If the implementation is hard to explain, it's a bad idea.
 19.Namespaces are one honking great idea -- let's do more of those!
 20.Beautiful is better than ugly.
 22.Simple is better than complex.
