@@ -15,4 +15,5 @@ Zen of Python
 20.Beautiful is better than ugly.
 22.Simple is better than complex.
 24.Flat is better than nested.
+23.Complex is better than complicated.
 56.Namespaces are one honking great idea -- let's do more of those!
