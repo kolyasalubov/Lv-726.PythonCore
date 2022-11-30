@@ -57,36 +57,18 @@ python_philosofy = '''The Zen of Python, by Tim Peters
 56.Namespaces are one honking great idea -- let's do more of those!'''
 
 # counting number of occurence of word: 'better' in python philosofy
-print ('Number of occurence of "better" in python philosofy:', python_philosofy.find('better'))
+print ('\nNumber of occurence of "better" in python philosofy:', python_philosofy.find('better'))
 
 # counting number of occurence of word: 'never' in python philosofy
-print ('Number of occurence of "never" in python philosofy:', python_philosofy.count('never'))
+print ('\nNumber of occurence of "never" in python philosofy:', python_philosofy.count('never'))
 
 # counting number of occurence of word: 'is' in python philosofy
-print ('Number of occurence of "is" in python philosofy:', python_philosofy.count('is'))
-
-
+print ('\nNumber of occurence of "is" in python philosofy:', python_philosofy.count('is'))
 
 # outputing python philosofy in uppercase
-print('Python philosofy in UPPERCASE: \n', python_philosofy.upper())
-
-
+print('\nPython philosofy in UPPERCASE: \n\n', python_philosofy.upper())
 
 # replacing char 'i' to '&' in python philosofy
-print(python_philosofy.replace('i', '&'))
+print('\nReplacing char "i" to "&" in python philosofy:\n\n', python_philosofy.replace('i', '&'))
 
 
-
-
-
-
-
-# exchange of variable values
-some_value1 = 555
-print('1-st variable = ', some_value1)
-some_value2 = "data"
-print('2-d variable = ', some_value2)
-
-some_value1, some_value2 = some_value2, some_value1
-
-print(f'After swaping 1-st variable = {some_value1}, and 2-d variable = {some_value2}')
