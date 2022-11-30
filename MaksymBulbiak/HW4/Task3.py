@@ -13,8 +13,6 @@ def fibonacci_func():
     l1 = 0
     l2 = 1
     print(0)
-    print(1) 
-    print(1)
     while n >= 0:
         l1 , l2 = l2, l1 + l2
         n -= 1
