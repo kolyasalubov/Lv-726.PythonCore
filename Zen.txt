@@ -9,5 +9,11 @@ Zen of Python
 9. Although practicality beats purity.
 10. Errors should never pass silently.
 11.Unless explicitly silenced.
+12.In the face of ambiguity, refuse the temptation to guess.
+16.Although never is often better than *right* now.
 19.Namespaces are one honking great idea -- let's do more of those!
+20.Beautiful is better than ugly.
+22.Simple is better than complex.
+24.Flat is better than nested.
+23.Complex is better than complicated.
 56.Namespaces are one honking great idea -- let's do more of those!
