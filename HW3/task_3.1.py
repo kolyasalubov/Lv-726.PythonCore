@@ -1,3 +1,11 @@
+# Author: Serhii
+
+status = input ('Hey, are you ready? (yes/no):  ')
+if status == 'yes':
+	print ("Lets go!!!")
+elif status == 'no':
+	print ("You must be always ready ;)")
+
 print("=======  Writing Zen of Python into String  =======\n")
 
 Py_Zen ="""                Beautiful is better than ugly.
