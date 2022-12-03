@@ -1,4 +1,5 @@
 # Author: Serhii
+# HW3 task 3.3
 # Exchange values between second variables
 print("==========  INIT  ==========")
 first = int(input("Enter value 'first':"))

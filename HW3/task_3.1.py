@@ -1,4 +1,5 @@
 # Author: Serhii
+# HW3 task 3.1
 
 status = input ('Hey, are you ready? (yes/no):  ')
 if status == 'yes':

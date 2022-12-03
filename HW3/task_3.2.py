@@ -1,3 +1,5 @@
+# Author: Serhii
+# HW3 task 3.2
 # 4-digit numbers calculating
 f4_number = input("Enter four-digit number:")
 

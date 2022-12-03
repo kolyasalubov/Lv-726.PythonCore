@@ -1,3 +1,5 @@
+# Author: Serhii
+# HW4 task 4.1
 # Inputing the user digit from keyboard
 
 your_magic_number = int(input('\nInput a digit: '))
