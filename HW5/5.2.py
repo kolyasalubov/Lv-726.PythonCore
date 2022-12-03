@@ -6,7 +6,7 @@ login_realist = input("Hey, Please enter your login: ")
 login_desired = 'First'
 # Writing your Login into secure hidden file
 file = ".login.txt"
-print ("Writing your Login into secure and hidden Linux file: ", file)
+print ("Writing your first realistic Login into secure and hidden Linux file: ", file)
 with open('.login.txt', 'w') as f:
     f.write('login_realist')
     # f.write('You has firstly entered: ' + login_realist)
@@ -33,7 +33,7 @@ login_realist = str(input("Hey, Please enter your login again: "))
 login_desired = 'First'
 while login_realist == login_desired:
     print(f'Hello, {login_realist}')
-    print(f'But firstly You had entered the Login: X')
+    print(f'But firstly You had entered the Login: $login.txt')
     break
 else:
     print("Login incorrect. Please enter proper login: ")
