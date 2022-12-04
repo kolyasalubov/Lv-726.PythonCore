@@ -1,6 +1,0 @@
-adjective = input ("Enter adjective: ")
-noun = input ("Enter noun: ")
-verb  = input ("Enter verb IInd form: ")
-onThe = input ("enter your animal:")
-print ("So, what we have...")
-print ("This ", adjective, noun, verb , "on the lazy red", onThe)
