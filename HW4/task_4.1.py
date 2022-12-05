@@ -5,6 +5,8 @@
 your_magic_number = int(input('\nInput a digit: '))
 factorial_A, factorial_B = 1, 1
 # factorial_A = factorial_B = 1
+print(f'Printing here two Factorials: A={factorial_A} and B={factorial_A}')
+print(f'Printing here Memory Addr of two Factorials: A =', id(factorial_A), 'and B =', id(factorial_B))
 
 if your_magic_number < 0:
     print('Incorrect input! Number must be > 0\n')
