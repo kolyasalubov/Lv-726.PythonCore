@@ -1,9 +1,8 @@
 # Author: Serhii
 # HW5 task 5.1
-
-
 # input the MAX number to which you want to send
 max_num = 11
+print("==========  Calculations for RANGE=1:10  ==========")
 
 # check if number is divisible by 2 and 3
 n = 1  # starting numbers from 0
