@@ -4,7 +4,7 @@
 
 your_magic_number = int(input('\nInput a digit: '))
 factorial_A, factorial_B = 1, 1
-
+# factorial_A = factorial_B = 1
 
 if your_magic_number < 0:
     print('Incorrect input! Number must be > 0\n')
