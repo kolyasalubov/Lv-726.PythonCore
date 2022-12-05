@@ -3,8 +3,7 @@
 # Inputing the user digit from keyboard
 
 your_magic_number = int(input('\nInput a digit: '))
-factorial_A = 1
-factorial_B = 1
+factorial_A, factorial_B = 1, 1
 
 
 if your_magic_number < 0:
