@@ -9,8 +9,6 @@ file = ".login.txt"
 print ("Writing your first realistic Login into secure and hidden Linux file: ", file)
 with open('.login.txt', 'w') as f:
     f.write(login_realist)
-    # f.write('You has firstly entered: ' + login_realist)
-    # f.write(name + ' lives in ' + live)
     f.close()
 
 print("===========  Way-1  ===========")
