@@ -1,4 +1,4 @@
-https://www.codewars.com/kata/587a75dbcaf9670c32000292/train/python
+# https://www.codewars.com/kata/587a75dbcaf9670c32000292/train/python
 
 def filter_words(st):
     # return st.capitalize() # easy option
