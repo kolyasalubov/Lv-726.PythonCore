@@ -33,3 +33,7 @@ print(Py_Zen.upper())
 print("=======  Replacing 'i' symbol in Zen of Python  =======\n")
 
 print(Py_Zen.replace('i', '&'))
+
+print("=======  Printing type of variable `Zen of Python`  =======\n", type(Py_Zen))
+
+print("=======  Printing ADDRESS of variable `Zen of Python`  =======\n", id(Py_Zen))
