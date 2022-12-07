@@ -1,4 +1,3 @@
-import unittest
 
 def filter_words(st):
     """
@@ -12,6 +11,4 @@ def filter_words(st):
 
 
 if __name__ == '__main__':
-    unittest.main()
-
-    assertEqual('HELLO world!','Hello world!')
+    assert filter_words('HELLO world!') == 'Hello world!'
