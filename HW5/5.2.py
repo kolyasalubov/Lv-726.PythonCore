@@ -14,6 +14,7 @@ print('==============================================')
 
 list = []
 total = int(input('Hey, Man! Please enter the TOTAL number of elements in list: '))
+
 def changeIntegerToFloat(total):
 
     for i in range(0, total):
