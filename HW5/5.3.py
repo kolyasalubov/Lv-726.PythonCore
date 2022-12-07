@@ -5,6 +5,7 @@
 # VARIABLES
 first = 0
 second = 1
+listFibonacci = [0, 1]
 def printFibonacci():
     global first, second
     count = int(input('Enter the TOTAL count of numbers: '))
@@ -12,5 +13,7 @@ def printFibonacci():
         first, second = second, (first + second)
         count -= 1
         print(first)
+        listFibonacci.append(first)
 
 printFibonacci()
+print(*listFibonacci, sep =',')
