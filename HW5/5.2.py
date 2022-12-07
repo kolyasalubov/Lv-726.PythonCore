@@ -11,6 +11,7 @@ if status == 0:
     branches += output.split('\n')
 print('Hey, Man! You are using the next Git Branches: ', branches)
 print('==============================================')
+
 def changeIntegerToFloat():
     list = []
     total = int(input('Hey, Man! Please enter the TOTAL number of elements in list: '))
