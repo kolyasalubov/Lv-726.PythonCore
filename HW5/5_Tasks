@@ -1,0 +1,13 @@
+Task2.
+
+Create a list that contains elements of integer type, then
+use the loop to change the type of these elements to a floating
+type.
+(Hint: use the built-in float () function).
+
+Task3.
+
+Print Fibonacci numbers up to the entered number n,
+using cycles.
+(Sequence of Fibonacci numbers 0, 1, 1, 2, 3, 5, 8, 13, etc.)
+
