@@ -12,9 +12,9 @@ if status == 0:
 print('Hey, Man! You are using the next Git Branches: ', branches)
 print('==============================================')
 
-def changeIntegerToFloat():
-    list = []
-    total = int(input('Hey, Man! Please enter the TOTAL number of elements in list: '))
+list = []
+total = int(input('Hey, Man! Please enter the TOTAL number of elements in list: '))
+def changeIntegerToFloat(total):
 
     for i in range(0, total):
         element = int(input(f"Please, enter the {i}th element of integer type:\n"))
@@ -27,5 +27,4 @@ def changeIntegerToFloat():
         floated_list.append(float(i))
     print(f'Hey, Man! Here is your RESULT: {floated_list}')
 
-
-changeIntegerToFloat()
+changeIntegerToFloat(total)
