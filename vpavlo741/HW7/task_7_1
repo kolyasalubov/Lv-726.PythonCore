@@ -1,0 +1,11 @@
+# порівняння 2х чисел 
+def number():
+    a = int(input("Введіть першу цифру: "))
+    b = int(input("Введіть другу цифру: "))
+    if a > b:
+        return f"{a} більше за {b}"
+    elif a < b:
+        return f"{b} більше за {a}"
+    else:
+        return f"{a} дорівнює {b}"
+print(number())
