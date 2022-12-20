@@ -1,0 +1,10 @@
+dictionary={} # створюємо словник, який по дефолту буде підтягувати функція
+def name(word):
+    for letter in word: # перебираємо букви в слові
+        if letter in dictionary: #якщо буква вже є словнику то лічильник +1
+            dictionary[letter]+=1
+        else:
+            dictionary[letter]=1 #створюємо у словнику ключ зі значенням 1
+    return dictionary
+
+print(name(input("Введіть слово ")))

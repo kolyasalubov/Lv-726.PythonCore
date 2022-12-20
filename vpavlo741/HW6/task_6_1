@@ -1,0 +1,13 @@
+number2=[]
+number3=[]
+number2_3=[]
+for x in range(1,11):
+    if x % 2 ==0:
+        number2.append(x)
+    elif x % 3 ==0:
+        number3.append(x)
+    else: 
+        number2_3.append(x)
+print(f"Числа, які діляться на 2 {number2}")
+print(f"Числа, які діляться на 3 {number3}")
+print(f"Числа, які не діляться на 2 або 3 {number2_3}")
