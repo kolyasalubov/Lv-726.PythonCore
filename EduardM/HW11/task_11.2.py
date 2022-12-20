@@ -1,7 +1,7 @@
 def f(days: dict) -> str:
     day_num = input("Enter day's num: ")
     if day_num not in "0123456789":
-        raise TypeError("You should enter number 1-7.")
+        raise TypeError("You should enter integer number [1-7].")
 
     day_num = int(day_num)
     if day_num not in days.keys():
