@@ -1,0 +1,8 @@
+
+def name_start(name):
+    if name == "First":
+        print("Ласкаво просимо, First")
+    else:
+        return name_start(input("Не вірне значення, введіть логін повторно  "))
+
+name_start(input("Введіть логін: "))

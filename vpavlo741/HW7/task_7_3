@@ -1,0 +1,57 @@
+#створив 2 варінти, один короткий та легкий. Другий великий в розмірах, але є можливість описати кожну функцію для розуміння 
+# замовником, що там відбувається.
+
+PI=3.14 # константа, яка буде по дефолту підтягутись функцією
+
+# def geometric_figures(name):
+#     if name == "трикутник":
+#         return triangle()
+#     elif name == "прямокутник":
+#         return rectangle()
+#     elif name == "коло":
+#         return circle()
+#     else:
+#         return geometric_figures(input("Не вірне значення, введіть назву фігури повторно  "))
+
+# def rectangle():
+#     number1=int(input("Введіть розмір першої сторони: "))
+#     number2=int(input("Введіть розмір другої сторони: "))
+#     number3= number1 * number2
+#     return f"Площа прямокутника дорівнює = {number3}"
+
+
+
+# def triangle():
+#     number1=int(input("Введіть довжину висоти: "))
+#     number2=int(input("Введіть довжину основы: "))
+#     number3=(1/2)*number1*number2
+#     return f"Площа трикутника дорівнює = {number3}"
+
+
+
+# def circle():
+#     number1=int(input("Введіть радіус: "))
+#     number2=PI*(number1**2)
+#     return f"Площа кола дорівнює = {number2}"
+
+
+
+def geometric_figures(name):
+    if name == "трикутник":
+        number1=int(input("Введіть довжину висоти: "))
+        number2=int(input("Введіть довжину основы: "))
+        number3=(1/2)*number1*number2
+        return f"Площа трикутника дорівнює = {number3}"
+    elif name == "прямокутник":
+        number1=int(input("Введіть розмір першої сторони: "))
+        number2=int(input("Введіть розмір другої сторони: "))
+        number3= number1 * number2
+        return f"Площа прямокутника дорівнює = {number3}"
+    elif name == "коло":
+        number1=int(input("Введіть радіус: "))
+        number2=PI*(number1**2)
+        return f"Площа кола дорівнює = {number2}"
+    else:
+        return geometric_figures(input("Не вірне значення, введіть name повторно  "))
+
+print(geometric_figures(input("Площа якої фігури вас цікавить? ")))
