@@ -3,4 +3,4 @@ def bool_to_word(boolean):
         return "Yes"
     return "No"
 
-print(bool_to_word(False))
+    
