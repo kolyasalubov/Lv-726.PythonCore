@@ -23,7 +23,7 @@ class Rectangle(Polygon):
     sides_of_rectangle = 2
 
     def __init__(self):
-        super().__init__(self.sides_of_rectangle)
+        super().__init__(Rectangle.sides_of_rectangle)
         self.square_of_rectangle = self.find_area(self.sides_list)
 
     def find_area(self, sides_list_of_rectangle):
