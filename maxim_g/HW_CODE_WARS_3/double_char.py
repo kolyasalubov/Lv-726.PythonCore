@@ -1,5 +1,10 @@
+
 def double_char(s):
-    doodubel_str = ''
-    for double_str in s:
-        doodubel_str += double_str*2
-    return doodubel_str
+    double_str = ''
+    for val in s:
+        double_str += val*2
+    return double_str
+
+
+result = double_char('Hello world!')
+print(result)  # HHeelllloo  wwoorrlldd!!
